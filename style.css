@@ -41,7 +41,7 @@ p {
 
 }
 
-.logo{
+.logo {
     width: 65px;
     border-radius: 15px;
     height: 55px;
@@ -58,11 +58,14 @@ p {
 }
 
 .menu a {
-    display: block;
     background-color: #5f7ab1;
+    display: flex;
     border-radius: 15px;
-    width: 120px;
+    width: 130px;
     height: 30px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -87,7 +90,7 @@ p {
     overflow: hidden;
 }
 
-.item img{
+.item img {
     width: 310px;
     height: 180px;
     border-radius: 15px;
@@ -114,7 +117,7 @@ p {
     transform: translateY(0%);
 }
 
-h4{
+h4 {
     justify-content: center;
     display: flex;
     margin: 10px;
